@@ -8,9 +8,9 @@ final class BaseResponse implements Response
     /**
      * @inheritDoc
      */
-    public function send($header, $content): Response
+    public function send(string $content): Response
     {
-        $this->sendHeaders($header);
+        $this->sendHeaders("HTTP/1.0 200");
 
         $this->sendContent($content);
         return $this;

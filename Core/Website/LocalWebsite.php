@@ -3,6 +3,7 @@
 namespace EOF\Website;
 
 use EOF\HTTP\Response\Response;
+use EOF\Page\Page;
 use EOF\Website\Website;
 
 /**
@@ -11,29 +12,16 @@ use EOF\Website\Website;
 final class LocalWebsite implements Website
 {
 
-    /** @var string **/
-    private $index;
-    /** @var string **/
-    private $name;
+    /** @var Page **/
+    private $page;
 
     /**
      * @param string $index
      * @param string $name
      */
-    public function __construct(string $name, string $index)
+    public function __construct(Page $page)
     {
-        $this->index = $index;
-        $this->name  = $name;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function content(string $content): Website
-    {
-        // TODO
-
-        return $this;
+        $this->page = $page;
     }
 
     /**
@@ -41,7 +29,9 @@ final class LocalWebsite implements Website
      */
     public function displayThrough(Response $response): Website
     {
-        $response->send("HTTP/1.0 200", '<h1>Demo</h1>');
+        $response->send(
+            $this->page->content()
+        );
 
         return $this;
     }

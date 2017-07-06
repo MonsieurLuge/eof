@@ -11,13 +11,6 @@ interface Website
 {
 
     /**
-     * TODO [content description]
-     * @param  string  $content
-     * @return Website
-     */
-    public function content(string $content): Website;
-
-    /**
      * Displays the website to the client.
      * @param  Response $response
      * @return Website
