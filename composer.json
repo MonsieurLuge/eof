@@ -1,0 +1,20 @@
+{
+    "name": "monsieurluge/eof",
+    "type": "project",
+    "license": "MIT",
+    "description": "East-Oriented Web Framework",
+    "authors": [
+        {
+            "name": "Laurent Vergé",
+            "email": "monsieurluge@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "EOF\\": "Core/",
+            "Website\\": "Website/"
+        }
+    }
+}
