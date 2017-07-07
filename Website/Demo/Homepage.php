@@ -2,6 +2,7 @@
 
 namespace Website\Demo;
 
+use EOF\HTTP\Response\Response;
 use EOF\Page\Page;
 
 /**
@@ -13,9 +14,11 @@ final class Homepage implements Page
     /**
      * @inheritDoc
      */
-    public function content(): string
+    public function contentTo(Response $response): Page
     {
-        return '<h1>Demo homepage</h1>';
+        $response->send('<h1>Demo homepage</h1>');
+
+        return $this;
     }
 
 }

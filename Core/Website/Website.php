@@ -11,10 +11,10 @@ interface Website
 {
 
     /**
-     * Displays the website to the client.
+     * Sends the website to the client.
      * @param  Response $response
      * @return Website
      */
-    public function displayThrough(Response $response): Website;
+    public function sendThrough(Response $response): Website;
 
 }

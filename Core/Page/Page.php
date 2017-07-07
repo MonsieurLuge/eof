@@ -1,6 +1,7 @@
 <?php
 
 namespace EOF\Page;
+use EOF\HTTP\Response\Response;
 
 /**
  * Page Interface
@@ -10,8 +11,8 @@ interface Page
 
     /**
      * TODO [content description]
-     * @return string
+     * @return Page
      */
-    public function content(): string;
+    public function contentTo(Response $response): Page;
 
 }
