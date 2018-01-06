@@ -1,6 +1,8 @@
 <?php
 
 namespace EOF\Page;
+
+use EOF\HTTP\Request\Request;
 use EOF\HTTP\Response\Response;
 use EOF\Website\Website;
 
@@ -10,13 +12,21 @@ use EOF\Website\Website;
 final class PageFromRequest implements Page
 {
 
+    /** @var Page **/
     private $page;
+    /** @var Request **/
     private $request;
+    /** @var Website **/
+    private $website;
 
-    public function __construct($request)
+    /**
+     * @param Request $request
+     */
+    public function __construct(Request $request, Website $website)
     {
         $this->page    = null;
         $this->request = $request;
+        $this->website = $website;
     }
 
     /**
@@ -29,7 +39,7 @@ final class PageFromRequest implements Page
             return $this->cachedPage;
         }
 
-        $this->cachedPage = new toto();
+        $this->cachedPage = $this->website;
 
         return $this->cachedPage();
     }

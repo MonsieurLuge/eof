@@ -3,12 +3,12 @@
 require_once __DIR__ . '/vendor/autoload.php';
 ini_set('display_errors', 1);
 
+use EOF\HTTP\Request\BaseRequest;
 use EOF\HTTP\Response\BaseResponse;
-use Website\Demo\Website;
-use Website\Demo\Homepage;
+use Website\Demo\Pages\DemoPagesFactory;
 
-$website = new Website(
-    new Homepage()
+$page = new DemoPagesFactory(
+    new BaseRequest()
 );
 
-$website->sendThrough(new BaseResponse());
+$page->sendThrough(new BaseResponse());
