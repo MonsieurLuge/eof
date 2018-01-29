@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4cf4b788e0a1157b557e0b7c63ccc666",
+    "packages": [
+        {
+            "name": "monsieurluge/eof-routing",
+            "version": "0.0.1-dev",
+            "dist": {
+                "type": "path",
+                "url": "/home/monsieurluge/Development/eof-routing",
+                "reference": "a23148441b1aab223cfe89b777b619c382567711",
+                "shasum": null
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "EOR\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laurent Vergé",
+                    "email": "monsieurluge@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "East-Oriented Routing module"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "monsieurluge/eof-routing": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

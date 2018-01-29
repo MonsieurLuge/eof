@@ -10,11 +10,19 @@
             "role": "developer"
         }
     ],
-    "require": {},
+    "require": {
+        "monsieurluge/eof-routing": "@dev"
+    },
     "autoload": {
         "psr-4": {
             "EOF\\": "Core/",
             "Website\\": "Website/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/monsieurluge/Development/eof-routing"
+        }
+    ]
 }
