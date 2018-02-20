@@ -1,7 +1,7 @@
 {
     "name": "monsieurluge/eof",
     "type": "project",
-    "license": "MIT",
+    "license": "Unlicense",
     "description": "East-Oriented Web Framework",
     "authors": [
         {
