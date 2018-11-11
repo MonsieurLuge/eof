@@ -1,6 +1,6 @@
 <?php
 
-namespace UnitTests\Router\Route;
+namespace UnitTests\Routing\Route;
 
 use EOF\Routing\Route\BaseRoute;
 use PHPUnit\Framework\TestCase;
