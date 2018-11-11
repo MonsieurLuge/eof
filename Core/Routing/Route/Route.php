@@ -1,6 +1,6 @@
 <?php
 
-namespace EOF\Router\Route;
+namespace EOF\Routing\Route;
 
 use Symfony\Component\HttpFoundation\Request;
 

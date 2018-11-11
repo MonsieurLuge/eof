@@ -2,7 +2,7 @@
 
 namespace UnitTests\Router\Router;
 
-use EOF\Router\BaseRouter;
+use EOF\Routing\BaseRouter;
 use PHPUnit\Framework\TestCase;
 
 final class BaseRouterTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace EOF\Router\Route;
+namespace EOF\Routing\Route;
 
-use EOF\Router\Route\Route;
+use EOF\Routing\Route\Route;
 use Symfony\Component\HttpFoundation\Request;
 
 final class BaseRoute implements Route

@@ -2,7 +2,7 @@
 
 namespace UnitTests\Router\Route;
 
-use EOF\Router\Route\BaseRoute;
+use EOF\Routing\Route\BaseRoute;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
