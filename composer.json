@@ -18,7 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "EOF\\": "Core/"
+            "EOF\\": "Core/",
+            "UnitTests\\": "tests/UnitTests/"
         }
     }
 }
