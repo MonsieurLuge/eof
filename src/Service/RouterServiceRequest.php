@@ -1,9 +1,9 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
 use Closure;
-use monsieurluge\pmf\Service\ServiceRequest;
+use monsieurluge\eof\Service\ServiceRequest;
 
 final class RouterServiceRequest implements ServiceRequest
 {

@@ -3,10 +3,10 @@
 namespace DemoConfiguration\Routing;
 
 use Demo\WebApi\Hello;
-use monsieurluge\pmf\Routing\Route\Route;
-use monsieurluge\pmf\Routing\Route\Routes;
-use monsieurluge\pmf\Routing\Route\AbstractRoutes;
-use monsieurluge\pmf\Routing\Route\SimpleRoute;
+use monsieurluge\eof\Routing\Route\Route;
+use monsieurluge\eof\Routing\Route\Routes;
+use monsieurluge\eof\Routing\Route\AbstractRoutes;
+use monsieurluge\eof\Routing\Route\SimpleRoute;
 use Symfony\Component\HttpFoundation\Request;
 
 final class ApiGetRoutes extends AbstractRoutes

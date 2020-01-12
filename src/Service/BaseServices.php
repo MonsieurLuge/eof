@@ -1,10 +1,10 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
 use Closure;
 use Exception;
-use monsieurluge\pmf\Service\Services;
+use monsieurluge\eof\Service\Services;
 
 final class BaseServices implements Services
 {

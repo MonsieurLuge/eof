@@ -1,6 +1,6 @@
 <?php
 
-namespace monsieurluge\pmf\Kernel;
+namespace monsieurluge\eof\Kernel;
 
 interface Kernel
 {

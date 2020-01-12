@@ -1,9 +1,9 @@
 <?php
 
-namespace monsieurluge\pmf\Event;
+namespace monsieurluge\eof\Event;
 
-use monsieurluge\pmf\Event\Event;
-use monsieurluge\pmf\Event\EventListener;
+use monsieurluge\eof\Event\Event;
+use monsieurluge\eof\Event\EventListener;
 
 interface EventBus
 {

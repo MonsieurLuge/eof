@@ -1,8 +1,8 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
-use monsieurluge\pmf\Service\ServicesPool;
+use monsieurluge\eof\Service\ServicesPool;
 
 interface Services
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace monsieurluge\pmf\Routing\Router;
+namespace monsieurluge\eof\Routing\Router;
 
 use Exception;
-use monsieurluge\pmf\Routing\Route\Route;
-use monsieurluge\pmf\Routing\Route\Routes;
-use monsieurluge\pmf\Routing\Router\Router;
+use monsieurluge\eof\Routing\Route\Route;
+use monsieurluge\eof\Routing\Route\Routes;
+use monsieurluge\eof\Routing\Router\Router;
 use Symfony\Component\HttpFoundation\Request;
 
 final class RouterWithFallback implements Router

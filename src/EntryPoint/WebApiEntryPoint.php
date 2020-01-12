@@ -1,12 +1,12 @@
 <?php
 
-namespace monsieurluge\pmf\EntryPoint;
+namespace monsieurluge\eof\EntryPoint;
 
-use monsieurluge\pmf\EntryPoint\EntryPoint;
-use monsieurluge\pmf\Service\ServiceRequest;
-use monsieurluge\pmf\Service\RouterServiceRequest;
-use monsieurluge\pmf\Service\ServicesPool;
-use monsieurluge\pmf\Routing\Router\Router;
+use monsieurluge\eof\EntryPoint\EntryPoint;
+use monsieurluge\eof\Service\ServiceRequest;
+use monsieurluge\eof\Service\RouterServiceRequest;
+use monsieurluge\eof\Service\ServicesPool;
+use monsieurluge\eof\Routing\Router\Router;
 use Symfony\Component\HttpFoundation\Request;
 
 final class WebApiEntryPoint implements EntryPoint

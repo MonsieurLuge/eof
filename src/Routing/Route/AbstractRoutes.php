@@ -1,9 +1,9 @@
 <?php
 
-namespace monsieurluge\pmf\Routing\Route;
+namespace monsieurluge\eof\Routing\Route;
 
-use monsieurluge\pmf\Routing\Route\Route;
-use monsieurluge\pmf\Routing\Route\Routes;
+use monsieurluge\eof\Routing\Route\Route;
+use monsieurluge\eof\Routing\Route\Routes;
 use Symfony\Component\HttpFoundation\Request;
 
 abstract class AbstractRoutes implements Routes

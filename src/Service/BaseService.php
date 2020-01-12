@@ -1,8 +1,8 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
-use monsieurluge\pmf\Service\Service;
+use monsieurluge\eof\Service\Service;
 
 final class BaseService implements Service
 {

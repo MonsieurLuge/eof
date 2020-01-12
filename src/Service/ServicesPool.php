@@ -1,9 +1,9 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
-use monsieurluge\pmf\Service\Service;
-use monsieurluge\pmf\Service\ServiceRequest;
+use monsieurluge\eof\Service\Service;
+use monsieurluge\eof\Service\ServiceRequest;
 
 interface ServicesPool
 {

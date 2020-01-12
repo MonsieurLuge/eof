@@ -1,10 +1,10 @@
 <?php
 
-namespace monsieurluge\pmf\Event\HttpRequest;
+namespace monsieurluge\eof\Event\HttpRequest;
 
-use monsieurluge\pmf\Event\Event;
-use monsieurluge\pmf\Event\EventListener;
-use monsieurluge\pmf\Routing\RouteTarget;
+use monsieurluge\eof\Event\Event;
+use monsieurluge\eof\Event\EventListener;
+use monsieurluge\eof\Routing\RouteTarget;
 
 final class HttpRoute implements EventListener
 {

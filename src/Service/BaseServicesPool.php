@@ -1,10 +1,10 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
-use monsieurluge\pmf\Service\Service;
-use monsieurluge\pmf\Service\ServicesPool;
-use monsieurluge\pmf\Service\ServiceRequest;
+use monsieurluge\eof\Service\Service;
+use monsieurluge\eof\Service\ServicesPool;
+use monsieurluge\eof\Service\ServiceRequest;
 
 final class BaseServicesPool implements ServicesPool
 {

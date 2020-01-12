@@ -4,10 +4,10 @@ namespace DemoConfiguration\Service;
 
 use Closure;
 use DemoConfiguration\Routing\ApiGetRoutes;
-use monsieurluge\pmf\Routing\Route\NotFound;
-use monsieurluge\pmf\Routing\Router\RouterWithFallback;
-use monsieurluge\pmf\Service\BaseService;
-use monsieurluge\pmf\Service\AbstractServices;
+use monsieurluge\eof\Routing\Route\NotFound;
+use monsieurluge\eof\Routing\Router\RouterWithFallback;
+use monsieurluge\eof\Service\BaseService;
+use monsieurluge\eof\Service\AbstractServices;
 
 final class DemoWebServices extends AbstractServices
 {

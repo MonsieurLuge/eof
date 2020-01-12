@@ -1,6 +1,6 @@
 <?php
 
-namespace monsieurluge\pmf\Event;
+namespace monsieurluge\eof\Event;
 
 use Symfony\Component\HttpFoundation\Request;
 

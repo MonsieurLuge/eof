@@ -1,8 +1,8 @@
 <?php
 
-namespace monsieurluge\pmf\Bootstrap;
+namespace monsieurluge\eof\Bootstrap;
 
-use monsieurluge\pmf\Bootstrap\Bootstrap;
+use monsieurluge\eof\Bootstrap\Bootstrap;
 
 final class ServicesBootstrap implements Bootstrap
 {

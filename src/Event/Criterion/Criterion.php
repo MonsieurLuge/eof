@@ -1,9 +1,9 @@
 <?php
 
-namespace monsieurluge\pmf\Event\Criterion;
+namespace monsieurluge\eof\Event\Criterion;
 
 use Closure;
-use monsieurluge\pmf\Event\Event;
+use monsieurluge\eof\Event\Event;
 
 interface Criterion
 {

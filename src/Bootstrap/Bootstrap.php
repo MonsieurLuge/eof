@@ -1,6 +1,6 @@
 <?php
 
-namespace monsieurluge\pmf\Bootstrap;
+namespace monsieurluge\eof\Bootstrap;
 
 interface Bootstrap
 {

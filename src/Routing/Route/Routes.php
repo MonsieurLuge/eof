@@ -1,8 +1,8 @@
 <?php
 
-namespace monsieurluge\pmf\Routing\Route;
+namespace monsieurluge\eof\Routing\Route;
 
-use monsieurluge\pmf\Routing\Route\Route;
+use monsieurluge\eof\Routing\Route\Route;
 use Symfony\Component\HttpFoundation\Request;
 
 interface Routes

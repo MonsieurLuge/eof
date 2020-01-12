@@ -1,11 +1,11 @@
 <?php
 
-namespace monsieurluge\pmf\Kernel;
+namespace monsieurluge\eof\Kernel;
 
-use monsieurluge\pmf\EntryPoint\EntryPoint;
-use monsieurluge\pmf\Kernel\Kernel;
-use monsieurluge\pmf\Service\Services;
-use monsieurluge\pmf\Service\ServicesPool;
+use monsieurluge\eof\EntryPoint\EntryPoint;
+use monsieurluge\eof\Kernel\Kernel;
+use monsieurluge\eof\Service\Services;
+use monsieurluge\eof\Service\ServicesPool;
 
 final class PmfKernel implements Kernel
 {

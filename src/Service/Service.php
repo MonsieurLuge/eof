@@ -1,6 +1,6 @@
 <?php
 
-namespace monsieurluge\pmf\Service;
+namespace monsieurluge\eof\Service;
 
 interface Service
 {

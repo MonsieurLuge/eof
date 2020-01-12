@@ -1,8 +1,8 @@
 <?php
 
-namespace monsieurluge\pmf\EntryPoint;
+namespace monsieurluge\eof\EntryPoint;
 
-use monsieurluge\pmf\Service\ServicesPool;
+use monsieurluge\eof\Service\ServicesPool;
 
 interface EntryPoint
 {

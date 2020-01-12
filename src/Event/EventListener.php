@@ -1,8 +1,8 @@
 <?php
 
-namespace monsieurluge\pmf\Event;
+namespace monsieurluge\eof\Event;
 
-use monsieurluge\pmf\Event\Event;
+use monsieurluge\eof\Event\Event;
 
 interface EventListener
 {
