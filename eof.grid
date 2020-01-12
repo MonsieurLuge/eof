@@ -1,0 +1,64 @@
+{
+  "layers": [
+    [
+      {
+        "type": "arc_c",
+        "verteces": [
+          {
+            "x": 60,
+            "y": 105
+          },
+          {
+            "x": 210,
+            "y": 105
+          },
+          {
+            "x": 240,
+            "y": 135
+          },
+          {
+            "x": 240,
+            "y": 195
+          }
+        ]
+      }
+    ],
+    [],
+    []
+  ],
+  "styles": [
+    {
+      "thickness": 20,
+      "strokeLinecap": "square",
+      "strokeLinejoin": "round",
+      "color": "#E31C79",
+      "fill": "none",
+      "dash": [
+        0,
+        0
+      ]
+    },
+    {
+      "thickness": 5,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round",
+      "color": "#777",
+      "fill": "none",
+      "dash": [
+        0,
+        0
+      ]
+    },
+    {
+      "thickness": 5,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round",
+      "color": "#444",
+      "fill": "none",
+      "dash": [
+        0,
+        0
+      ]
+    }
+  ]
+}
