@@ -1,8 +1,8 @@
 {
-    "name": "monsieurluge/pmf",
+    "name": "monsieurluge/eof",
     "type": "framework",
     "license": "UNLICENCED",
-    "description": "mini PHP framework",
+    "description": "East oriented PHP framework",
     "authors": [
         {
             "name": "Laurent Vergé",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "monsieurluge\\pmf\\": "src/",
+            "monsieurluge\\eof\\": "src/",
             "Demo\\": "demo/src/",
             "DemoConfiguration\\": "demo/config/"
         }
