@@ -8,7 +8,7 @@ final class BaseService implements Service
 {
     /** @var string */
     private $name;
-    /** @var [type] */
+    /** @var mixed */
     private $thing;
 
     public function __construct(string $name, $thing)
