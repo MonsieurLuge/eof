@@ -19,6 +19,14 @@ final class BaseServices implements Services
     /**
      * @inheritDoc
      */
+    public function register(ServicesPool $pool): void
+    {
+        // todo
+    }
+
+    /**
+     * @inheritDoc
+     */
     public function service(string $name)
     {
         if (false === isset($this->services[$name])) {

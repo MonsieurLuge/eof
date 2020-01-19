@@ -19,9 +19,9 @@ final class Criteria implements Criterion
     /**
      * @inheritDoc
      */
-    public function validated(Event $event, Closure $next): void
+    public function validated($event, Closure $next): void
     {
-        $this->resolve($this->criteria, $event);
+        $this->resolve($this->criteria, $event, $next);
     }
 
     private function resolve(array $criteria, Event $event, Closure $next)
@@ -32,7 +32,7 @@ final class Criteria implements Criterion
 
         $criteria[0]->validated(
             $event,
-            function () use ($criteria, $event) { $this->resolve($criteria, $event); }
+            function () use ($criteria, $event, $next) { $this->resolve($criteria, $event, $next); }
         );
     }
 }

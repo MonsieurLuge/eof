@@ -24,7 +24,7 @@ final class TempEventBus
     {
         array_map(
             function (EventListener $listener) use ($event) {
-                $listener->listen($event)
+                $listener->listen($event);
             },
             $this->listeners
         );

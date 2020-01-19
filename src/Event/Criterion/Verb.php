@@ -18,7 +18,7 @@ final class Verb implements Criterion
     /**
      * @inheritDoc
      */
-    public function validated(HttpRequestEvent $event, Closure $next): void
+    public function validated($event, Closure $next): void
     {
         if ($this->expected === $event->request->getMethod()) {
             ($next)($event);

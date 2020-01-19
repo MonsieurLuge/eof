@@ -4,7 +4,7 @@ namespace monsieurluge\eof\Event\HttpRequest;
 
 use monsieurluge\eof\Event\Event;
 use monsieurluge\eof\Event\EventListener;
-use monsieurluge\eof\Routing\RouteTarget;
+use monsieurluge\eof\Routing\Route\RouteTarget;
 
 final class HttpRoute implements EventListener
 {
