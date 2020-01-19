@@ -8,7 +8,7 @@ use monsieurluge\eof\Service\ServiceRequest;
 
 final class BaseServicesPool implements ServicesPool
 {
-    /** @var array */
+    /** @var array<Service> */
     private $services;
 
     public function __construct()

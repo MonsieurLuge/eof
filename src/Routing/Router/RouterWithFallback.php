@@ -24,7 +24,7 @@ final class RouterWithFallback implements Router
     /**
      * @inheritDoc
      */
-    public function register($route): void
+    public function register(Route $route): void
     {
         // FIXME
     }

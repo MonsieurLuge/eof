@@ -7,7 +7,7 @@ use monsieurluge\eof\Event\EventListener;
 
 final class TempEventBus
 {
-    /** @var array */
+    /** @var array<EventListener> */
     private $listeners;
 
     public function __construct()

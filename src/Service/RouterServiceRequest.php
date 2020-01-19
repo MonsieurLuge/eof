@@ -3,6 +3,7 @@
 namespace monsieurluge\eof\Service;
 
 use Closure;
+use monsieurluge\eof\Service\Service;
 use monsieurluge\eof\Service\ServiceRequest;
 
 final class RouterServiceRequest implements ServiceRequest
@@ -21,7 +22,7 @@ final class RouterServiceRequest implements ServiceRequest
     /**
      * @inheritDoc
      */
-    public function resolve($service): void
+    public function resolve(Service $service): void
     {
         ($this->callback)($service);
     }

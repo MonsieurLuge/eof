@@ -4,10 +4,12 @@ namespace monsieurluge\eof\Event\Criterion;
 
 use Closure;
 use monsieurluge\eof\Event\Criterion\Criterion;
+use monsieurluge\eof\Event\Event;
 use monsieurluge\eof\Event\HttpRequestEvent;
 
 final class Verb implements Criterion
 {
+    /** @var string */
     private $expected;
 
     public function __construct(string $expected)
@@ -18,9 +20,9 @@ final class Verb implements Criterion
     /**
      * @inheritDoc
      */
-    public function validated($event, Closure $next): void
+    public function validated(Event $event, Closure $next): void
     {
-        if ($this->expected === $event->request->getMethod()) {
+        if ($this->expected === $event->content()->getMethod()) {
             ($next)($event);
         };
     }

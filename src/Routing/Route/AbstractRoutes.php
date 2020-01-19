@@ -42,5 +42,8 @@ abstract class AbstractRoutes implements Routes
         ($availableRoutes[0])->handle($request);
     }
 
+    /**
+     * @return array<Route>
+     */
     abstract protected function routes(): array;
 }

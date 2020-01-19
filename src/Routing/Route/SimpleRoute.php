@@ -8,6 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 final class SimpleRoute implements Route
 {
+    /** @var Closure */
     private $target;
 
     public function __construct(Closure $target)

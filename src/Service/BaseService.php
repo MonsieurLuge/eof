@@ -11,6 +11,10 @@ final class BaseService implements Service
     /** @var mixed */
     private $thing;
 
+    /**
+     * @param string $name
+     * @param mixed  $thing
+     */
     public function __construct(string $name, $thing)
     {
         $this->name  = $name;

@@ -22,5 +22,8 @@ abstract class AbstractServices implements Services
         );
     }
 
+    /**
+     * @return array<Service>
+     */
     abstract protected function services(): array;
 }

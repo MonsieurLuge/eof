@@ -8,9 +8,12 @@ use monsieurluge\eof\Event\Event;
 
 final class Criteria implements Criterion
 {
-    /** @var array */
+    /** @var array<Criterion> */
     private $criteria;
 
+    /**
+     * @param array<Criterion> $criteria
+     */
     public function __construct(array $criteria)
     {
         $this->criteria = $criteria;
@@ -19,12 +22,17 @@ final class Criteria implements Criterion
     /**
      * @inheritDoc
      */
-    public function validated($event, Closure $next): void
+    public function validated(Event $event, Closure $next): void
     {
         $this->resolve($this->criteria, $event, $next);
     }
 
-    private function resolve(array $criteria, Event $event, Closure $next)
+    /**
+     * @param array<Criterion> $criteria
+     * @param Event            $event
+     * @param Closure          $next
+     */
+    private function resolve(array $criteria, Event $event, Closure $next): void
     {
         if (0 === count($criteria)) {
             ($next)($event);
